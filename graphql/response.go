@@ -13,7 +13,7 @@ import (
 // and https://github.com/facebook/graphql/pull/384
 type Response struct {
 	Errors     gqlerror.List          `json:"errors,omitempty"`
-	Data       json.RawMessage        `json:"data"`
+	Data       json.RawMessage        `json:"data,omitempty"`
 	Extensions map[string]interface{} `json:"extensions,omitempty"`
 }
 
