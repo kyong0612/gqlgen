@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/errcode"
+	"github.com/kyong0612/gqlgen/graphql"
+	"github.com/kyong0612/gqlgen/graphql/errcode"
 	"github.com/gorilla/websocket"
 	"github.com/vektah/gqlparser/v2/gqlerror"
 )

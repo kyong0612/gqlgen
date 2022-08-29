@@ -5,7 +5,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/kyong0612/gqlgen/graphql"
 )
 
 type ThirdParty struct {

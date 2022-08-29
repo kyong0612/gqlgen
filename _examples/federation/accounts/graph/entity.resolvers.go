@@ -6,8 +6,8 @@ package graph
 import (
 	"context"
 
-	"github.com/99designs/gqlgen/_examples/federation/accounts/graph/generated"
-	"github.com/99designs/gqlgen/_examples/federation/accounts/graph/model"
+	"github.com/kyong0612/gqlgen/_examples/federation/accounts/graph/generated"
+	"github.com/kyong0612/gqlgen/_examples/federation/accounts/graph/model"
 )
 
 // FindEmailHostByID is the resolver for the findEmailHostByID field.

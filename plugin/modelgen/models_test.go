@@ -12,10 +12,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/99designs/gqlgen/plugin/modelgen/out_struct_pointers"
+	"github.com/kyong0612/gqlgen/plugin/modelgen/out_struct_pointers"
 
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/plugin/modelgen/out"
+	"github.com/kyong0612/gqlgen/codegen/config"
+	"github.com/kyong0612/gqlgen/plugin/modelgen/out"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

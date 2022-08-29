@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/99designs/gqlgen/_examples/starwars/generated"
-	"github.com/99designs/gqlgen/graphql/handler"
+	"github.com/kyong0612/gqlgen/_examples/starwars/generated"
+	"github.com/kyong0612/gqlgen/graphql/handler"
 )
 
 func BenchmarkSimpleQueryNoArgs(b *testing.B) {

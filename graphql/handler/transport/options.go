@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/kyong0612/gqlgen/graphql"
 )
 
 // Options responds to http OPTIONS and HEAD requests

@@ -70,15 +70,15 @@ resolver:
 models:
   ID:
     model:
-      - github.com/99designs/gqlgen/graphql.ID
-      - github.com/99designs/gqlgen/graphql.Int
-      - github.com/99designs/gqlgen/graphql.Int64
-      - github.com/99designs/gqlgen/graphql.Int32
+      - github.com/kyong0612/gqlgen/graphql.ID
+      - github.com/kyong0612/gqlgen/graphql.Int
+      - github.com/kyong0612/gqlgen/graphql.Int64
+      - github.com/kyong0612/gqlgen/graphql.Int32
   Int:
     model:
-      - github.com/99designs/gqlgen/graphql.Int
-      - github.com/99designs/gqlgen/graphql.Int64
-      - github.com/99designs/gqlgen/graphql.Int32
+      - github.com/kyong0612/gqlgen/graphql.Int
+      - github.com/kyong0612/gqlgen/graphql.Int64
+      - github.com/kyong0612/gqlgen/graphql.Int32
 ```
 
 Everything has defaults, so add things as you need.
@@ -109,7 +109,7 @@ directive @goTag(
 > Here be dragons
 >
 > gqlgen doesnt currently support user-configurable directives for SCALAR, ENUM, INTERFACE or UNION. This only works
-> for internal directives. You can track the progress [here](https://github.com/99designs/gqlgen/issues/760)
+> for internal directives. You can track the progress [here](https://github.com/kyong0612/gqlgen/issues/760)
 
 Now you can use these directives when defining types in your schema:
 
@@ -128,6 +128,7 @@ The builtin directives `goField`, `goModel` and `goTag` are automatically regist
 If you have created a new code generation plugin using a directive which does not require runtime execution, the directive will need to be set to `skip_runtime`.
 
 e.g. a custom directive called `constraint` would be set as `skip_runtime` using the following configuration
+
 ```yml
 # custom directives which are not exposed during introspection. These directives are
 # used for code generation only

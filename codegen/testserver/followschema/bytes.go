@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/kyong0612/gqlgen/graphql"
 )
 
 func MarshalBytes(b []byte) graphql.Marshaler {

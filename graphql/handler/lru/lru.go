@@ -3,7 +3,7 @@ package lru
 import (
 	"context"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/kyong0612/gqlgen/graphql"
 	lru "github.com/hashicorp/golang-lru"
 )
 
